@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Backend Developer & Hardware-Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span class="logo-text">Portofolio</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">Tersedia untuk Peluang Kerja</div>
+          <h1 class="hero-title">
+            Backend Developer dengan Fondasi Hardware & IoT
+          </h1>
+          <p class="hero-tagline">
+            Menghubungkan logika komputasi backend dengan integrasi perangkat fisik secara terstruktur.
+          </p>
+          <p class="hero-description">
+            Lulusan S1 Teknik Komputer yang berfokus pada pengembangan backend API menggunakan Python dan PostgreSQL, serta memiliki kemampuan dalam elektronika, C/C++, dan sistem terhubung IoT.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <!-- TEMPAT FOTO PROFIL (Line 63 - 75) -->
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <div class="profile-img-container">
+              <!-- Baris foto profil utama -->
+              <img src="foto.png" alt="Foto Profil" class="profile-img">
+            </div>
+            <div class="profile-status">
+              <span class="status-dot"></span>
+              <span class="status-text">Siap untuk Kolaborasi & Kerja</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Latar Belakang & Fokus Kerja</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <p>
+              Saya adalah lulusan Sarjana Teknik Komputer dengan minat mendalam pada pengembangan aplikasi web, khususnya di sisi backend dan integrasi sistem perangkat keras. Perjalanan saya dibangun dari pemahaman dasar elektronika, mikrokontroler, hingga perancangan arsitektur data di tingkat perangkat lunak.
+            </p>
+            <p>
+              Dalam pengembangan software, saya berfokus sebagai Backend Developer yang memanfaatkan Python dan database PostgreSQL untuk menerima, memproses, serta menyediakan data secara terstruktur melalui REST API. Saya tertarik menyelesaikan masalah integrasi sistem—baik sistem data mandiri maupun sistem yang menjembatani aliran data antara sensor fisik, mikrokontroler (ESP32/C++), dan server backend.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🎯</div>
+              <div>
+                <h4>Target Posisi</h4>
+                <p>Hardware and Software Engineer</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🎓</div>
+              <div>
+                <h4>Pendidikan</h4>
+                <p>Sarjana (S1) Teknik Komputer</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">⚙️</div>
+              <div>
+                <h4>Pendekatan Kerja</h4>
+                <p>Integrasi hardware-ke-cloud, arsitektur data bersih, dan version control terstruktur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Keahlian</span>
+          <h2 class="section-title">Skills & Penguasaan Teknologi</h2>
+          <p class="section-subtitle">Daftar teknologi dan keahlian yang saya kuasai dan terapkan dalam project nyata.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">💻</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">🗄️</span>
+              <h3>Database</h3>
+            </div>
+            <ul class="skill-list">
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+
+          <!-- IOT -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">📡</span>
+              <h3>IoT (Internet of Things)</h3>
+            </div>
+            <ul class="skill-list">
+              <li>ESP32</li>
+              <li>Integrasi Sensor & Komunikasi Data</li>
+            </ul>
+          </div>
+
+          <!-- Elektronika -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">⚡</span>
+              <h3>Elektronika</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Rangkaian Pembagi Tegangan</li>
+              <li>Komponen IC (ADC0804, 74LS47)</li>
+              <li>Perancangan Power Supply Unit (Multi-voltage)</li>
+            </ul>
+          </div>
+
+          <!-- Technical -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">🛠️</span>
+              <h3>Technical</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Git (Version Control)</li>
+              <li>API Development & Data Handling</li>
+              <li>Packaging Perangkat Keras Siap Pakai</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portofolio Project</span>
+          <h2 class="section-title">Project Pilihan</h2>
+          <p class="section-subtitle">Project backend dan sistem terintegrasi yang pernah saya kembangkan.</p>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- PROJECT 1 (Prioritas 1: Backend) -->
+          <article class="project-card priority-project">
+            <div class="project-badge-top">Prioritas Utama — Backend</div>
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">1. Sistem Monitoring Data</h3>
+                <p class="project-overview">Sistem backend berbasis Python dan PostgreSQL yang dirancang untuk menerima, menyimpan, dan menyediakan data secara terpusat melalui antarmuka API.</p>
+              </div>
+            </div>
+
+            <div class="project-meta-grid">
+              <div class="meta-block">
+                <span class="meta-label">Problem</span>
+                <p>Kebutuhan akan pipeline pencatatan data yang andal untuk mengelola data masuk agar tersimpan secara terstruktur dan dapat diakses kembali oleh aplikasi atau pengguna.</p>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Solution</span>
+                <p>Membangun arsitektur backend menggunakan Python dan basis data relasional PostgreSQL untuk menangani penerimaan data, validasi, penyimpanan, dan penyediaan endpoint API.</p>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Fitur Utama</span>
+                <ul class="project-feature-list">
+                  <li>Penerimaan request dan input data terpusat</li>
+                  <li>Penyimpanan data relasional terstruktur pada PostgreSQL</li>
+                  <li>Penyediaan data melalui API endpoint untuk kebutuhan monitoring</li>
+                </ul>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Teknologi & Peran</span>
+                <p><strong>Teknologi:</strong> Python, PostgreSQL, Git</p>
+                <p><strong>Peran Saya:</strong> Backend Developer (Merancang skema database, membangun logika API, dan menguji aliran data)</p>
+              </div>
+              <div class="meta-block full-width">
+                <span class="meta-label">Proses Pengembangan</span>
+                <p>Menganalisis kebutuhan data model, merancang tabel relasional pada PostgreSQL, mengimplementasikan logika backend dengan Python, serta menyediakan endpoint API untuk mempermudah akses data.</p>
+              </div>
+              <div class="meta-block full-width">
+                <span class="meta-label">Hasil</span>
+                <p>Sistem backend fungsional yang mampu memproses penyimpanan data dan menyediakan data monitoring secara konsisten melalui API.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 (Prioritas 2: IoT & Backend/Python Analysis) -->
+          <article class="project-card">
+            <div class="project-header">
+              <div>
+                <div class="project-type-tag">IoT & Data Analysis</div>
+                <h3 class="project-title">2. Tempat Sampah Pintar Berbasis IoT</h3>
+                <p class="project-overview">Sistem tempat sampah otomatis interaktif berbasis ESP32 yang terintegrasi dengan pemrosesan Python untuk menganalisis intensitas penumpukan sampah.</p>
+              </div>
+            </div>
+
+            <div class="project-meta-grid">
+              <div class="meta-block">
+                <span class="meta-label">Problem</span>
+                <p>Tempat sampah konvensional memerlukan kontak fisik langsung dan rawan meluap jika tidak dipantau secara berkala.</p>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Solution</span>
+                <p>Mengintegrasikan mikrokontroler ESP32 dengan sensor untuk mekanisme buka-tutup otomatis higienis, penguncian saat penuh, serta analisis data intensitas sampah menggunakan Python.</p>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Fitur Utama</span>
+                <ul class="project-feature-list">
+                  <li>Terbuka secara otomatis saat mendeteksi interaksi manusia</li>
+                  <li>Sistem pencegahan: otomatis terkunci/tidak dapat terbuka ketika kondisi penuh</li>
+                  <li>Analisis data intensitas sampah menggunakan skrip Python</li>
+                </ul>
+              </div>
+              <div class="meta-block">
+                <span class="meta-label">Teknologi & Peran</span>
+                <p><strong>Teknologi:</strong> ESP32, C/C++, Python, Git</p>
+                <p><strong>Peran Saya:</strong> IoT & Software Developer (Memprogram logika ESP32 dan skrip analitik Python)</p>
+              </div>
+              <div class="meta-block full-width">
+                <span class="meta-label">Proses Pengembangan</span>
+                <p>Memprogram ESP32 menggunakan C/C++ untuk kendali aktuator/sensor, mengimplementasikan logika validasi kondisi kapasitas sampah, serta mengolah data intensitas keterisian menggunakan Python.</p>
+              </div>
+              <div class="meta-block full-width">
+                <span class="meta-label">Hasil</span>
+                <p>Prototipe perangkat pintar yang bekerja secara otomatis dan memberikan data pemantauan intensitas sampah yang siap diintegrasikan lebih lanjut.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 & 4 (Hardware Engineering) -->
+          <div class="projects-subgrid">
+            <!-- PROJECT 3: Voltmeter ADC -->
+            <article class="project-card compact-card">
+              <div class="project-type-tag">Hardware Engineering</div>
+              <h3 class="project-title">3. Voltmeter ADC 1–9 Volt</h3>
+              <p class="project-overview">Alat ukur tegangan digital mandiri berbasis ADC0804 dan dekoder 74LS47 dengan kemasan siap pakai.</p>
+              
+              <div class="compact-meta">
+                <p><strong>Problem:</strong> Kebutuhan visualisasi tegangan analog rentang 1-9V ke bentuk display digital diskrit.</p>
+                <p><strong>Solusi:</strong> Mendesain pembagi tegangan (voltage divider) yang tepat agar sinyal dapat dikonversi akurat oleh IC ADC0804 dan ditampilkan via dekoder 74LS47 ke display.</p>
+                <p><strong>Teknologi:</strong> Rangkaian Pembagi Tegangan, ADC0804, 74LS47, Hardware Packaging</p>
+                <p><strong>Peran:</strong> Hardware Engineer (Perancangan skematik, kalibrasi tegangan, perakitan, dan pembuatan packaging)</p>
+                <p><strong>Hasil:</strong> Modul voltmeter digital portabel dengan packaging rapi dan siap pakai.</p>
+              </div>
+            </article>
+
+            <!-- PROJECT 4: PSU -->
+            <article class="project-card compact-card">
+              <div class="project-type-tag">Hardware Engineering</div>
+              <h3 class="project-title">4. Power Supply Unit Multi-Output</h3>
+              <p class="project-overview">Catu daya teregulasi multi-tegangan yang menyediakan output stabil 5V, 9V, dan 12V untuk kebutuhan laboratorium dan mikrokontroler.</p>
+              
+              <div class="compact-meta">
+                <p><strong>Problem:</strong> Perlunya sumber tegangan yang stabil dengan beragam tingkatan voltase dalam satu perangkat pengujian terpadu.</p>
+                <p><strong>Solusi:</strong> Merancang sistem regulasi daya multi-jalur untuk menghasilkan 5V, 9V, dan 12V DC secara stabil di dalam boks packaging yang aman.</p>
+                <p><strong>Teknologi:</strong> Elektronika Analog/Regulator, Hardware Packaging Siap Pakai</p>
+                <p><strong>Peran:</strong> Hardware Engineer (Desain sirkuit daya, perakitan kabel, pengujian beban tegangan, dan perakitan casing)</p>
+                <p><strong>Hasil:</strong> Unit power supply fungsional dan siap pakai untuk menyuplai berbagai sirkuit elektronika dan modul mikrokontroler.</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EXPERIENCE SECTION -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Pengalaman</span>
+          <h2 class="section-title">Riwayat Pengembangan</h2>
+          <p class="section-subtitle">Pengalaman pengembangan sistem backend, perangkat keras, dan integrasi terapan.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-type">Akademik & Mandiri</span>
+              </div>
+              <h3 class="timeline-title">Backend & Software Development</h3>
+              <p class="timeline-role">Developer</p>
+              <p class="timeline-desc">
+                Mengembangkan sistem backend untuk menerima, menyimpan, dan menyediakan data melalui API menggunakan Python dan PostgreSQL. Menerapkan manajemen kode sumber menggunakan Git.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-type">IoT & Hardware Project</span>
+              </div>
+              <h3 class="timeline-title">Hardware & Embedded Systems Integration</h3>
+              <p class="timeline-role">Hardware & Software Engineer</p>
+              <p class="timeline-desc">
+                Merancang dan memprogram perangkat berbasis mikrokontroler ESP32 menggunakan C/C++, serta mendesain instrumen elektronika (Voltmeter ADC, Power Supply Unit) lengkap dengan packaging fisik siap pakai.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Pendidikan</span>
+          <h2 class="section-title">Latar Belakang Akademik</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-details">
+            <div class="edu-top">
+              <h3 class="edu-degree">Sarjana (STr) Teknik Komputer</h3>
+              <span class="edu-status">Lulusan</span>
+            </div>
+            <p class="edu-instansi">POLITEKNIK ELEKTRONIKA NEGERI SURABAYA</p>
+            <p class="edu-desc">
+              Mempelajari arsitektur sistem komputer, dasar pemrograman terstruktur, elektronika digital, komunikasi data, serta rekayasa perangkat lunak dan sistem benam (embedded systems).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Kontak</span>
+          <h2 class="section-title">Mari Terhubung</h2>
+          <p class="section-subtitle">Terbuka untuk diskusi kesempatan kerja, kolaborasi teknis, atau peninjauan portfolio lebih lanjut.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Informasi Kontak</h3>
+            <p>Silakan hubungi saya melalui jalur komunikasi berikut untuk mendiskusikan peluang kerja atau project:</p>
+
+            <div class="contact-channels">
+              <a href="https://www.instagram.com/syaif.muhammad" target="_blank" rel="noopener noreferrer" class="contact-channel-item contact-link">
+                <span class="channel-icon">📸</span>
+                <div>
+                  <span class="channel-label">Instagram</span>
+                  <p class="channel-value">@syaif.muhammad</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/pro15" target="_blank" rel="noopener noreferrer" class="contact-channel-item contact-link">
+                <span class="channel-icon">💻</span>
+                <div>
+                  <span class="channel-label">GitHub</span>
+                  <p class="channel-value">github.com/pro15</p>
+                </div>
+              </a>
+
+              <a href="https://id.linkedin.com/in/muhammad-syaif-aly-894162286" target="_blank" rel="noopener noreferrer" class="contact-channel-item contact-link">
+                <span class="channel-icon">🔗</span>
+                <div>
+                  <span class="channel-label">LinkedIn</span>
+                  <p class="channel-value">linkedin.com/muhammad_syaif_aly</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card-box">
+            <h4>Catatan Singkat untuk Perekrut</h4>
+            <p>
+              Saya berfokus pada posisi <strong>Hardware and Software Engineer</strong>. Setiap implementasi kode dan skematik didasarkan pada prinsip keteraturan, integrasi data yang solid, dan kejelasan arsitektur.
+            </p>
+            <a href="mailto:syaif.muhammad0602@gmail.com" class="btn btn-primary full-width-btn" id="emailBtn">Kirim Email Langsung</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Portofolio Digital. Dibuat dengan HTML, CSS & JavaScript.</p>
+      <a href="#home" class="back-to-top">Kembali ke Atas ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
